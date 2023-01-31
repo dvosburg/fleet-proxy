@@ -1,6 +1,7 @@
 helm:
   #chart: oci://registry.opensuse.org/uyuni/proxy
   chart: https://bosdonnat.fr/dl/proxy-2023.1.0.tgz
+  version: "2023.1.0"
   values:
     services:
       annotations:
