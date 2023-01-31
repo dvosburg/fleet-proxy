@@ -2,3 +2,5 @@ namespace: metallb
 helm:
   values:
     ip: global.fleet.clusterLabels.proxy-ip
+dependsOn:
+  - name: proxy-metallb

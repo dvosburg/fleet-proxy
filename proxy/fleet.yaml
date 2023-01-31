@@ -11,5 +11,4 @@ helm:
     - httpd.yaml
     - ssh.yaml
 dependsOn:
-  - name: proxy-metallb
   - name: proxy-metallb-config
