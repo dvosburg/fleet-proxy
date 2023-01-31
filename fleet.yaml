@@ -1,0 +1,16 @@
+defaultNamespace: default
+namespace: default
+helm:
+  chart: oci://registry.opensuse.org/uyuni/proxy
+  values:
+    services:
+      annotations:
+        metallb.universe.tf/allow-shared-ip: key-to-share-ip
+        metallb.universe.tf/loadBalancerIPs: global.fleet.clusterLabels.proxy-ip
+  valuesFiles:
+    - config.yaml
+    - httpd.yaml
+    - ssh.yaml
+dependsOn:
+  - name: proxy-metallb
+  - name: proxy-metallb-config

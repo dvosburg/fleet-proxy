@@ -1,0 +1,64 @@
+httpd:
+    system_id: <?xml version="1.0"?><params><param><value><struct><member><name>username</name><value><string>admin</string></value></member><member><name>os_release</name><value><string>(unknown)</string></value></member><member><name>operating_system</name><value><string>(unknown)</string></value></member><member><name>architecture</name><value><string>x86_64-redhat-linux</string></value></member><member><name>system_id</name><value><string>ID-1000010003</string></value></member><member><name>type</name><value><string>REAL</string></value></member><member><name>fields</name><value><array><data><value><string>system_id</string></value><value><string>os_release</string></value><value><string>operating_system</string></value><value><string>architecture</string></value><value><string>username</string></value><value><string>type</string></value></data></array></value></member><member><name>checksum</name><value><string>a6da86a14f945eb90a54e67a692c568790dc2726dd15a6e99f614fc4b181827b</string></value></member></struct></value></param></params>
+    server_crt: "Certificate:\n    Data:\n        Version: 3 (0x2)\n        Serial Number:\n            3a:ce:3d:2d:d0:e7:05:fe:82:42:8f:76:93:8a:8f:73:2e:2b:97:32\n\
+        \        Signature Algorithm: sha256WithRSAEncryption\n        Issuer: C = DE, ST = Bayern, L = Nuernberg, O = SUSE, OU = SUSE, CN = dev-srv.mgr.lab\n\
+        \        Validity\n            Not Before: Jan 23 13:35:34 2023 GMT\n            Not After : Jan 18 13:35:34 2038 GMT\n        Subject: C = US,\
+        \ ST = North Carolina, O = Example Corp. Inc., OU = unit, CN = dev-proxy.mgr.lab, emailAddress = admin@example.com\n        Subject Public Key Info:\n\
+        \            Public Key Algorithm: rsaEncryption\n                RSA Public-Key: (2048 bit)\n                Modulus:\n                    00:bc:6f:df:1d:44:fd:79:db:77:05:9c:b7:f8:3c:\n\
+        \                    6e:76:01:06:4d:53:02:7c:56:be:a4:10:c0:b5:1e:\n                    24:cd:6c:eb:37:06:b8:57:10:b3:58:66:83:3e:73:\n        \
+        \            01:c2:42:ff:bc:9c:e1:a4:fc:fd:8a:8f:63:31:fa:\n                    f2:22:2e:90:4e:52:42:cd:ab:c3:37:0e:88:a6:fd:\n                \
+        \    d3:64:53:ba:92:51:e9:aa:d6:a1:b4:9c:3a:9b:57:\n                    05:62:f4:9c:2d:35:34:2e:07:c6:96:a7:1c:66:3f:\n                    19:ce:e3:b8:70:e1:3a:cb:83:9d:71:8a:f7:37:88:\n\
+        \                    62:9b:b7:6e:c4:17:01:da:2d:d8:69:bc:94:41:42:\n                    64:c6:87:5a:c6:57:6b:b1:07:0a:df:e0:4e:60:65:\n        \
+        \            58:a1:6d:b1:4f:0d:44:6b:d6:03:2b:ba:1d:78:37:\n                    af:c7:af:d8:06:a6:bd:e8:03:10:38:a2:36:92:85:\n                \
+        \    9c:7b:4d:df:0e:b2:f0:75:db:38:60:6c:7f:11:98:\n                    de:17:ea:33:2b:e4:2d:89:de:6a:2e:ec:d6:ea:a6:\n                    67:04:f0:7b:b5:31:98:f7:76:48:ee:da:6f:e2:07:\n\
+        \                    2b:17:99:99:53:33:2a:80:00:b5:51:9c:20:0c:63:\n                    48:d9:82:a0:3f:65:e8:64:67:1c:78:e5:b2:5c:80:\n        \
+        \            80:19\n                Exponent: 65537 (0x10001)\n        X509v3 extensions:\n            X509v3 Basic Constraints: \n            \
+        \    CA:FALSE\n            X509v3 Key Usage: \n                Digital Signature, Key Encipherment\n            X509v3 Extended Key Usage: \n  \
+        \              TLS Web Server Authentication, TLS Web Client Authentication\n            Netscape Cert Type: \n                SSL Server\n    \
+        \        Netscape Comment: \n                RHN SSL Tool Generated Certificate\n            X509v3 Subject Key Identifier: \n                97:F7:3C:B6:0C:FE:C3:F1:FB:6D:BC:A5:52:63:B9:FB:52:B8:B2:12\n\
+        \            X509v3 Authority Key Identifier: \n                keyid:99:40:38:30:7D:09:92:5A:72:65:AD:A1:ED:64:1C:80:61:2E:CC:6A\n            \
+        \    DirName:/C=DE/ST=Bayern/L=Nuernberg/O=SUSE/OU=SUSE/CN=dev-srv.mgr.lab\n                serial:6A:2E:13:26:B2:89:A9:64:46:A1:F5:3A:B8:3A:FF:2F:EA:B2:A5:FF\n\
+        \n            X509v3 Subject Alternative Name: \n                DNS:dev-proxy.mgr.lab\n    Signature Algorithm: sha256WithRSAEncryption\n     \
+        \    72:7d:8e:c9:fd:d1:72:2c:7c:a2:77:f7:09:33:53:28:6f:34:\n         ab:d0:df:b0:1c:5d:04:3c:69:4c:d5:48:23:dd:c6:ae:05:57:\n         37:0e:c9:c5:77:7f:6b:77:05:d1:62:17:61:e9:7e:b7:96:a7:\n\
+        \         19:c0:51:4e:57:97:2b:fa:54:67:c6:bc:81:66:e9:2f:ae:13:\n         05:85:99:4a:fa:4b:3f:5a:ce:16:03:5a:e2:9c:df:8f:dd:93:\n         5b:4e:37:dd:73:da:83:17:71:f1:d5:dc:3f:ed:1f:7b:13:a7:\n\
+        \         e7:f0:bd:86:c7:8f:7e:27:23:fc:6a:2f:0b:5c:c8:16:c2:57:\n         9f:ca:c6:d3:a3:f4:98:09:39:6b:ff:a0:28:91:97:a0:ff:db:\n         d6:78:48:28:29:4c:ab:e7:d5:eb:8c:a5:6c:18:08:d0:78:0f:\n\
+        \         70:52:bb:9d:48:b7:a7:e6:76:2d:9c:cb:53:cc:c0:07:14:ee:\n         4b:21:1b:e3:91:5e:bd:91:94:66:6a:59:5f:b2:8b:d3:2a:a4:\n         d9:c7:c3:f7:2c:08:1c:c4:7d:cb:b6:a6:09:91:9f:34:92:e3:\n\
+        \         3a:a2:ec:7f:fd:a9:05:9c:d7:14:fd:b8:26:1a:a1:d6:d6:ee:\n         2e:dc:59:9e:3c:07:2f:5d:34:9d:5b:ac:e5:6c:b7:03:58:e6:\n         d9:41:20:c8\n\
+        -----BEGIN CERTIFICATE-----\nMIIE8zCCA9ugAwIBAgIUOs49LdDnBf6CQo92k4qPcy4rlzIwDQYJKoZIhvcNAQEL\nBQAwajELMAkGA1UEBhMCREUxDzANBgNVBAgMBkJheWVybjESMBAGA1UEBwwJTnVl\n\
+        cm5iZXJnMQ0wCwYDVQQKDARTVVNFMQ0wCwYDVQQLDARTVVNFMRgwFgYDVQQDDA9k\nZXYtc3J2Lm1nci5sYWIwHhcNMjMwMTIzMTMzNTM0WhcNMzgwMTE4MTMzNTM0WjCB\nkDELMAkGA1UEBhMCVVMxFzAVBgNVBAgMDk5vcnRoIENhcm9saW5hMRswGQYDVQQK\n\
+        DBJFeGFtcGxlIENvcnAuIEluYy4xDTALBgNVBAsMBHVuaXQxGjAYBgNVBAMMEWRl\ndi1wcm94eS5tZ3IubGFiMSAwHgYJKoZIhvcNAQkBFhFhZG1pbkBleGFtcGxlLmNv\nbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALxv3x1E/XnbdwWct/g8\n\
+        bnYBBk1TAnxWvqQQwLUeJM1s6zcGuFcQs1hmgz5zAcJC/7yc4aT8/YqPYzH68iIu\nkE5SQs2rwzcOiKb902RTupJR6arWobScOptXBWL0nC01NC4HxpanHGY/Gc7juHDh\nOsuDnXGK9zeIYpu3bsQXAdot2Gm8lEFCZMaHWsZXa7EHCt/gTmBlWKFtsU8NRGvW\n\
+        Ayu6HXg3r8ev2AamvegDEDiiNpKFnHtN3w6y8HXbOGBsfxGY3hfqMyvkLYneai7s\n1uqmZwTwe7UxmPd2SO7ab+IHKxeZmVMzKoAAtVGcIAxjSNmCoD9l6GRnHHjlslyA\ngBkCAwEAAaOCAWgwggFkMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgWgMB0GA1UdJQQW\n\
+        MBQGCCsGAQUFBwMBBggrBgEFBQcDAjARBglghkgBhvhCAQEEBAMCBkAwMQYJYIZI\nAYb4QgENBCQWIlJITiBTU0wgVG9vbCBHZW5lcmF0ZWQgQ2VydGlmaWNhdGUwHQYD\nVR0OBBYEFJf3PLYM/sPx+228pVJjuftSuLISMIGnBgNVHSMEgZ8wgZyAFJlAODB9\n\
+        CZJacmWtoe1kHIBhLsxqoW6kbDBqMQswCQYDVQQGEwJERTEPMA0GA1UECAwGQmF5\nZXJuMRIwEAYDVQQHDAlOdWVybmJlcmcxDTALBgNVBAoMBFNVU0UxDTALBgNVBAsM\nBFNVU0UxGDAWBgNVBAMMD2Rldi1zcnYubWdyLmxhYoIUai4TJrKJqWRGofU6uDr/\n\
+        L+qypf8wHAYDVR0RBBUwE4IRZGV2LXByb3h5Lm1nci5sYWIwDQYJKoZIhvcNAQEL\nBQADggEBAHJ9jsn90XIsfKJ39wkzUyhvNKvQ37AcXQQ8aUzVSCPdxq4FVzcOycV3\nf2t3BdFiF2HpfreWpxnAUU5Xlyv6VGfGvIFm6S+uEwWFmUr6Sz9azhYDWuKc34/d\n\
+        k1tON91z2oMXcfHV3D/tH3sTp+fwvYbHj34nI/xqLwtcyBbCV5/KxtOj9JgJOWv/\noCiRl6D/29Z4SCgpTKvn1euMpWwYCNB4D3BSu51It6fmdi2cy1PMwAcU7kshG+OR\nXr2RlGZqWV+yi9MqpNnHw/csCBzEfcu2pgmRnzSS4zqi7H/9qQWc1xT9uCYaodbW\n\
+        7i7cWZ48By9dNJ1brOVstwNY5tlBIMg=\n-----END CERTIFICATE-----\n"
+    server_key: |
+        -----BEGIN RSA PRIVATE KEY-----
+        MIIEowIBAAKCAQEAvG/fHUT9edt3BZy3+DxudgEGTVMCfFa+pBDAtR4kzWzrNwa4
+        VxCzWGaDPnMBwkL/vJzhpPz9io9jMfryIi6QTlJCzavDNw6Ipv3TZFO6klHpqtah
+        tJw6m1cFYvScLTU0LgfGlqccZj8ZzuO4cOE6y4OdcYr3N4him7duxBcB2i3YabyU
+        QUJkxodaxldrsQcK3+BOYGVYoW2xTw1Ea9YDK7odeDevx6/YBqa96AMQOKI2koWc
+        e03fDrLwdds4YGx/EZjeF+ozK+Qtid5qLuzW6qZnBPB7tTGY93ZI7tpv4gcrF5mZ
+        UzMqgAC1UZwgDGNI2YKgP2XoZGcceOWyXICAGQIDAQABAoIBAFqDgjCVCwyVlr5j
+        YRskLAsSwuwxi2geYsR8J5TYPeVPBE0SNUndA8jatQAyTg36EM2QrfKKc18zMPq5
+        B8XTiA2XBe+1KbgwiwNruTbf4SaXoh4lqtcOlDg5vKSjysEMZVwW8BU9gC688LCo
+        Qdg21/8Z4W7Aya8rG/KgUdxvELyzpcnmTNDWJYWkaDtfZux8YgnUsR2NnRdPIUze
+        t3eTs7BnZWkqt2AYcTcj7H7g7Laf4f9VoO+X+8JXuCiqrWTXAaMKeqPTqF4x0GN1
+        q5hOcuUNIZwC49X2tHXDwI0/F6+XxMqGPqAqnsL/JayJhwG72Gp1/iT5pJ2JZBjD
+        Immer4ECgYEA4KklrY3hDqPkLQ5rqnUpJBNtRgWzR+vRs+b/JcK/m9iamaUAHSF0
+        wSqWwxex796kCIgYc9eS6bve7+Tad+DekoAcB/xNNROto6J++aABS18MnBYZukWz
+        b7vuErem8/UYZwUSuAYBhitFuEZRDsIftNsGUOoCTYt5LAwDbbq5yQUCgYEA1rkj
+        wqqCI31xCWsXY7cO5tAq/YlaFiJZwbdsviEoRIz/uEGu4iBYOWiLTHANogOf6Cz5
+        jMkAJuDR1cFyjX9SzKxz8UAfydauxp/TYRdUEOJSXu3C6hbdQURxdJjrfaCwqmvT
+        YMLv8WDIcyhyAgpKIaMoguZWlJvKut2iWysJtwUCgYEAm3hSq7U4nvIKEKgfF/o2
+        O1H6V+/P7qCiIVZlEZOhF8+gxVzrJD2n15mKdX4rVC0F5SWRjnELqRarI+aCzVzf
+        ihB/1YLjRyzUCB6GsmbpHmiriES/Dyn3EAbErU1Mixz9AyX+mz0Exv2hJPH8XDM4
+        z+aWi141s8YmV7YElWYX9aUCgYBE2yn0iukgqGFPO+BMQa+tpKOkmh8hafKOhFuC
+        vO9EzFJUq/uA2A5ymmvRHz2/7pmgwotj8jDyRrYDbf1mEqZirAqiGoYXG5kAaNBI
+        GksC/xCbEHOozZw2CdS4JzGdH6KHg/xM0zZOmVKuWxH0RYhwMPoUv/iTv0HLmrct
+        tSdwYQKBgH4KOrTlmy13FeTrUG/2muN8FWQDsXocg9Un9Rp3f75metlCpYP9MIW4
+        uqanwQsh+du9c+KojmnblRujAVT3xk4eYp0fRQ4pjxc8W8CQ0ScWEUuhZEVBeiL3
+        2zIYwKH1OKl/8TIFVV5cWyWfDLuMWSfuCtQeSE6luRNICyTwCQBS
+        -----END RSA PRIVATE KEY-----
