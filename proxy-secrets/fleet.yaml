@@ -1,0 +1,17 @@
+targetCustomizations:
+  - name: store1234
+    yaml:
+      overlays:
+        - store1234
+    clusterSelector:
+      matchLabel:
+        store: store1234
+  - name: store5678
+    yaml:
+      overlays:
+        - store5678
+    clusterSelector:
+      matchLabel:
+        store: store5678
+dependsOn:
+  - name: proxy-sealedsecrets

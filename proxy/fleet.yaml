@@ -9,7 +9,13 @@ helm:
         metallb.universe.tf/loadBalancerIPs: global.fleet.clusterLabels.proxy-ip
   valuesFiles:
     - config.yaml
-    - httpd.yaml
-    - ssh.yaml
+  valuesFrom:
+    - secretKeyRef:
+        name: proxy-secret-import
+        key: httpd.yaml
+    - secretKeyRef:
+        name: proxy-secret-import
+        key: ssh.yaml
 dependsOn:
   - name: proxy-metallb-config
+  - name: proxy-proxy-secrets

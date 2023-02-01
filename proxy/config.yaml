@@ -1,36 +1,36 @@
-server: dev-srv.mgr.lab
-ca_crt: "Certificate:\n    Data:\n        Version: 3 (0x2)\n        Serial Number:\n            6a:2e:13:26:b2:89:a9:64:46:a1:f5:3a:b8:3a:ff:2f:ea:b2:a5:ff\n\
-    \        Signature Algorithm: sha256WithRSAEncryption\n        Issuer: C = DE, ST = Bayern, L = Nuernberg, O = SUSE, OU = SUSE, CN = dev-srv.mgr.lab\n\
-    \        Validity\n            Not Before: Jan  4 17:10:50 2023 GMT\n            Not After : Jan  1 17:10:50 2033 GMT\n        Subject: C = DE, ST =\
-    \ Bayern, L = Nuernberg, O = SUSE, OU = SUSE, CN = dev-srv.mgr.lab\n        Subject Public Key Info:\n            Public Key Algorithm: rsaEncryption\n\
-    \                RSA Public-Key: (2048 bit)\n                Modulus:\n                    00:b7:5b:c5:9d:9f:3d:f0:09:0a:b2:74:77:ee:3d:\n         \
-    \           66:cf:f7:d2:ca:e4:74:a3:6e:5b:c8:9c:3f:5f:8f:\n                    2f:27:c6:c2:54:1e:c8:e9:d2:dd:f0:97:33:a8:2a:\n                    0a:69:54:0d:07:79:db:8b:7f:2d:dd:e3:bf:d2:5b:\n\
-    \                    98:60:d1:d6:0f:8a:5b:42:a9:9e:67:c9:a0:a3:5a:\n                    39:aa:57:a2:c2:fe:96:7d:e5:e3:9e:6c:22:64:58:\n            \
-    \        c2:16:0a:80:16:19:1f:29:8f:04:f9:86:30:ab:0b:\n                    11:8d:50:04:3f:ab:d5:e7:a2:d7:56:05:04:a0:a7:\n                    b3:74:c5:99:98:b5:5a:45:77:04:57:9f:d7:2f:f0:\n\
-    \                    16:b9:6b:be:18:a7:23:6d:9f:e1:01:30:ea:de:82:\n                    ca:24:6e:8b:af:06:ad:c0:32:98:78:a7:6b:15:b2:\n            \
-    \        1e:c7:72:c7:86:d4:0a:d1:86:b2:6c:86:d6:13:02:\n                    9a:58:d7:8e:68:f7:7f:39:8e:3c:a8:b3:a4:40:70:\n                    f1:a2:7d:2d:0b:0e:d8:e6:c8:40:0c:5d:8f:b3:18:\n\
-    \                    f3:e2:d6:69:dc:2a:4e:98:fb:b8:29:51:c4:d0:4e:\n                    c4:05:af:38:ed:05:ca:33:af:12:1d:97:de:42:8c:\n            \
-    \        d7:ce:ef:ce:49:6f:39:e9:0c:a1:7e:7d:aa:59:d2:\n                    9a:47\n                Exponent: 65537 (0x10001)\n        X509v3 extensions:\n\
+server: uyuni.world-co.com
+ca_crt: "Certificate:\n    Data:\n        Version: 3 (0x2)\n        Serial Number:\n            64:da:7f:63:47:ff:80:22:45:ee:0f:00:d3:f0:07:d5:8f:d9:ff:33\n\
+    \        Signature Algorithm: sha256WithRSAEncryption\n        Issuer: C = DE, ST = Bayern, L = Nuernberg, O = SUSE, OU = SUSE, CN = uyuni.world-co.com\n\
+    \        Validity\n            Not Before: Feb  1 10:56:45 2023 GMT\n            Not After : Jan 29 10:56:45 2033 GMT\n        Subject: C = DE, ST =\
+    \ Bayern, L = Nuernberg, O = SUSE, OU = SUSE, CN = uyuni.world-co.com\n        Subject Public Key Info:\n            Public Key Algorithm: rsaEncryption\n\
+    \                RSA Public-Key: (2048 bit)\n                Modulus:\n                    00:e6:4c:6a:85:e9:dc:94:61:0a:c3:c8:25:6e:a6:\n         \
+    \           49:7e:d8:ae:d0:bf:af:d8:58:34:26:d0:69:f5:10:\n                    dd:45:d9:32:52:cd:8b:cf:fe:2f:28:f3:e2:d6:7a:\n                    55:02:f0:a5:21:6f:bd:0e:c2:39:05:ac:c6:cf:d7:\n\
+    \                    2b:c2:a7:4f:d6:ca:83:88:0c:a0:d8:9c:aa:10:7b:\n                    2a:78:51:ca:7b:2d:4c:1d:00:34:8e:8b:0a:2f:21:\n            \
+    \        d1:b5:e5:8d:fc:38:e5:31:7e:98:7f:e1:71:68:8a:\n                    4e:48:53:7f:25:d1:d9:90:4b:e1:37:93:8f:e3:f6:\n                    b4:d1:f7:2b:a5:35:98:4e:38:4f:d7:a8:82:60:eb:\n\
+    \                    45:b1:d1:25:e1:cd:ec:7f:d4:5d:b4:82:b7:53:f2:\n                    16:a1:2e:71:2d:4f:33:82:11:58:9c:2e:52:d5:94:\n            \
+    \        8b:9f:b1:d2:73:53:de:79:0c:84:48:62:29:51:bb:\n                    4e:ac:b8:bf:1f:0b:b8:35:82:d1:47:39:ff:f1:0f:\n                    e5:1b:2a:fb:3b:71:4e:b2:4f:d8:f8:e3:b1:62:a5:\n\
+    \                    ae:75:e1:7a:c4:c3:8a:3f:64:da:41:1c:63:ad:77:\n                    35:2e:92:00:88:33:59:22:5c:51:88:43:52:bc:0e:\n            \
+    \        62:4d:ee:fa:dd:77:a3:a6:96:9a:4a:fa:6c:3b:b8:\n                    2c:e7\n                Exponent: 65537 (0x10001)\n        X509v3 extensions:\n\
     \            X509v3 Basic Constraints: \n                CA:TRUE\n            X509v3 Key Usage: \n                Digital Signature, Key Encipherment,\
     \ Certificate Sign\n            X509v3 Extended Key Usage: \n                TLS Web Server Authentication, TLS Web Client Authentication\n        \
-    \    Netscape Comment: \n                RHN SSL Tool Generated Certificate\n            X509v3 Subject Key Identifier: \n                99:40:38:30:7D:09:92:5A:72:65:AD:A1:ED:64:1C:80:61:2E:CC:6A\n\
-    \            X509v3 Authority Key Identifier: \n                keyid:99:40:38:30:7D:09:92:5A:72:65:AD:A1:ED:64:1C:80:61:2E:CC:6A\n                DirName:/C=DE/ST=Bayern/L=Nuernberg/O=SUSE/OU=SUSE/CN=dev-srv.mgr.lab\n\
-    \                serial:6A:2E:13:26:B2:89:A9:64:46:A1:F5:3A:B8:3A:FF:2F:EA:B2:A5:FF\n\n    Signature Algorithm: sha256WithRSAEncryption\n         0b:8b:3c:a6:29:ec:f3:da:3a:62:31:f0:ae:e8:aa:db:4f:de:\n\
-    \         65:e8:76:0c:6f:d6:86:3f:6b:8f:ea:b6:0e:bd:87:8a:19:c1:\n         66:73:a4:c1:51:bf:c7:d7:63:60:ef:5b:e1:fe:68:f6:23:1e:\n         fd:d0:47:6f:97:01:8d:bd:b2:1f:37:05:64:83:17:01:2a:4b:\n\
-    \         74:d9:2f:20:a4:40:6b:30:54:6f:e3:88:00:48:e2:aa:e5:77:\n         46:bd:00:3a:91:8d:55:da:93:63:d8:ad:41:c7:ac:8b:86:d3:\n         13:80:f3:4c:99:6e:71:6d:f7:d5:68:ea:bf:f9:eb:6c:e6:b0:\n\
-    \         ff:db:66:d1:36:c9:ae:b1:92:a6:3f:ad:aa:28:a1:ad:86:52:\n         42:03:2c:20:ce:40:86:64:a4:53:48:73:ea:a9:b1:92:14:72:\n         3a:ab:ca:32:17:01:bf:1b:7a:59:ec:a9:5b:45:83:29:de:2f:\n\
-    \         f8:62:f0:23:82:19:41:77:7c:68:71:63:91:b6:50:97:64:63:\n         8f:63:73:9d:a8:0d:9d:31:8b:c2:e5:74:c4:a5:9a:cf:66:e4:\n         82:28:90:f8:8d:98:e9:75:c0:0a:5a:89:be:57:fb:03:2b:c3:\n\
-    \         b2:76:bd:70:73:5c:02:cf:e2:2f:84:69:cf:27:f0:88:60:9f:\n         2a:47:07:b3\n-----BEGIN CERTIFICATE-----\nMIIEnjCCA4agAwIBAgIUai4TJrKJqWRGofU6uDr/L+qypf8wDQYJKoZIhvcNAQEL\n\
-    BQAwajELMAkGA1UEBhMCREUxDzANBgNVBAgMBkJheWVybjESMBAGA1UEBwwJTnVl\ncm5iZXJnMQ0wCwYDVQQKDARTVVNFMQ0wCwYDVQQLDARTVVNFMRgwFgYDVQQDDA9k\nZXYtc3J2Lm1nci5sYWIwHhcNMjMwMTA0MTcxMDUwWhcNMzMwMTAxMTcxMDUwWjBq\n\
-    MQswCQYDVQQGEwJERTEPMA0GA1UECAwGQmF5ZXJuMRIwEAYDVQQHDAlOdWVybmJl\ncmcxDTALBgNVBAoMBFNVU0UxDTALBgNVBAsMBFNVU0UxGDAWBgNVBAMMD2Rldi1z\ncnYubWdyLmxhYjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALdbxZ2f\n\
-    PfAJCrJ0d+49Zs/30srkdKNuW8icP1+PLyfGwlQeyOnS3fCXM6gqCmlUDQd524t/\nLd3jv9JbmGDR1g+KW0KpnmfJoKNaOapXosL+ln3l455sImRYwhYKgBYZHymPBPmG\nMKsLEY1QBD+r1eei11YFBKCns3TFmZi1WkV3BFef1y/wFrlrvhinI22f4QEw6t6C\n\
-    yiRui68GrcAymHinaxWyHsdyx4bUCtGGsmyG1hMCmljXjmj3fzmOPKizpEBw8aJ9\nLQsO2ObIQAxdj7MY8+LWadwqTpj7uClRxNBOxAWvOO0FyjOvEh2X3kKM187vzklv\nOekMoX59qlnSmkcCAwEAAaOCATowggE2MAwGA1UdEwQFMAMBAf8wCwYDVR0PBAQD\n\
-    AgKkMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAxBglghkgBhvhCAQ0E\nJBYiUkhOIFNTTCBUb29sIEdlbmVyYXRlZCBDZXJ0aWZpY2F0ZTAdBgNVHQ4EFgQU\nmUA4MH0JklpyZa2h7WQcgGEuzGowgacGA1UdIwSBnzCBnIAUmUA4MH0JklpyZa2h\n\
-    7WQcgGEuzGqhbqRsMGoxCzAJBgNVBAYTAkRFMQ8wDQYDVQQIDAZCYXllcm4xEjAQ\nBgNVBAcMCU51ZXJuYmVyZzENMAsGA1UECgwEU1VTRTENMAsGA1UECwwEU1VTRTEY\nMBYGA1UEAwwPZGV2LXNydi5tZ3IubGFighRqLhMmsompZEah9Tq4Ov8v6rKl/zAN\n\
-    BgkqhkiG9w0BAQsFAAOCAQEAC4s8pins89o6YjHwruiq20/eZeh2DG/Whj9rj+q2\nDr2HihnBZnOkwVG/x9djYO9b4f5o9iMe/dBHb5cBjb2yHzcFZIMXASpLdNkvIKRA\nazBUb+OIAEjiquV3Rr0AOpGNVdqTY9itQcesi4bTE4DzTJlucW331Wjqv/nrbOaw\n\
-    /9tm0TbJrrGSpj+tqiihrYZSQgMsIM5AhmSkU0hz6qmxkhRyOqvKMhcBvxt6Weyp\nW0WDKd4v+GLwI4IZQXd8aHFjkbZQl2Rjj2NznagNnTGLwuV0xKWaz2bkgiiQ+I2Y\n6XXAClqJvlf7AyvDsna9cHNcAs/iL4RpzyfwiGCfKkcHsw==\n\
+    \    Netscape Comment: \n                RHN SSL Tool Generated Certificate\n            X509v3 Subject Key Identifier: \n                6E:2D:C0:12:A9:1E:05:5C:1C:63:D1:B8:96:63:A0:2A:00:14:49:ED\n\
+    \            X509v3 Authority Key Identifier: \n                keyid:6E:2D:C0:12:A9:1E:05:5C:1C:63:D1:B8:96:63:A0:2A:00:14:49:ED\n                DirName:/C=DE/ST=Bayern/L=Nuernberg/O=SUSE/OU=SUSE/CN=uyuni.world-co.com\n\
+    \                serial:64:DA:7F:63:47:FF:80:22:45:EE:0F:00:D3:F0:07:D5:8F:D9:FF:33\n\n    Signature Algorithm: sha256WithRSAEncryption\n         4b:d4:c0:89:5d:ed:54:2f:ab:c4:0b:bb:25:78:a3:36:6b:27:\n\
+    \         97:cd:8e:4d:18:d9:66:66:24:05:cf:4f:00:16:79:4c:5d:0e:\n         b9:c6:29:d2:7d:d2:0e:f6:b4:69:cc:62:f8:ef:a6:e6:d9:42:\n         6a:77:d7:d8:7b:da:fa:5f:99:92:99:29:57:59:75:a6:af:3c:\n\
+    \         41:ec:07:ff:a9:a6:3d:fe:c6:13:3c:40:81:1b:3b:ff:6c:4d:\n         2f:74:6a:29:d8:8f:52:e0:28:ba:42:3c:20:87:59:b3:c0:58:\n         52:08:96:b1:bc:53:c9:43:56:3c:95:32:0d:87:e6:10:f0:58:\n\
+    \         e9:81:5d:6e:d9:36:f7:11:3d:0f:1d:1a:19:b6:78:81:96:52:\n         2f:48:44:9e:0c:7b:76:35:4d:75:46:c8:49:8d:70:8f:f2:07:\n         12:91:c9:d2:5f:7a:b4:d5:63:e1:03:2b:7c:bb:8d:88:f2:84:\n\
+    \         25:36:0c:45:db:5f:63:a8:ef:48:48:92:24:61:83:17:20:14:\n         d5:44:9d:71:b2:45:27:d0:7b:94:9f:28:fc:41:63:30:88:41:\n         3f:5c:6b:c1:35:a7:96:f0:ea:e1:9d:35:e1:12:8c:3e:4a:34:\n\
+    \         53:af:9e:5b:f1:80:69:a5:20:66:ca:4b:f8:5d:fa:b8:7b:67:\n         42:b1:7a:7e\n-----BEGIN CERTIFICATE-----\nMIIEpzCCA4+gAwIBAgIUZNp/Y0f/gCJF7g8A0/AH1Y/Z/zMwDQYJKoZIhvcNAQEL\n\
+    BQAwbTELMAkGA1UEBhMCREUxDzANBgNVBAgMBkJheWVybjESMBAGA1UEBwwJTnVl\ncm5iZXJnMQ0wCwYDVQQKDARTVVNFMQ0wCwYDVQQLDARTVVNFMRswGQYDVQQDDBJ1\neXVuaS53b3JsZC1jby5jb20wHhcNMjMwMjAxMTA1NjQ1WhcNMzMwMTI5MTA1NjQ1\n\
+    WjBtMQswCQYDVQQGEwJERTEPMA0GA1UECAwGQmF5ZXJuMRIwEAYDVQQHDAlOdWVy\nbmJlcmcxDTALBgNVBAoMBFNVU0UxDTALBgNVBAsMBFNVU0UxGzAZBgNVBAMMEnV5\ndW5pLndvcmxkLWNvLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB\n\
+    AOZMaoXp3JRhCsPIJW6mSX7YrtC/r9hYNCbQafUQ3UXZMlLNi8/+Lyjz4tZ6VQLw\npSFvvQ7COQWsxs/XK8KnT9bKg4gMoNicqhB7KnhRynstTB0ANI6LCi8h0bXljfw4\n5TF+mH/hcWiKTkhTfyXR2ZBL4TeTj+P2tNH3K6U1mE44T9eogmDrRbHRJeHN7H/U\n\
+    XbSCt1PyFqEucS1PM4IRWJwuUtWUi5+x0nNT3nkMhEhiKVG7Tqy4vx8LuDWC0Uc5\n//EP5Rsq+ztxTrJP2PjjsWKlrnXhesTDij9k2kEcY613NS6SAIgzWSJcUYhDUrwO\nYk3u+t13o6aWmkr6bDu4LOcCAwEAAaOCAT0wggE5MAwGA1UdEwQFMAMBAf8wCwYD\n\
+    VR0PBAQDAgKkMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAxBglghkgB\nhvhCAQ0EJBYiUkhOIFNTTCBUb29sIEdlbmVyYXRlZCBDZXJ0aWZpY2F0ZTAdBgNV\nHQ4EFgQUbi3AEqkeBVwcY9G4lmOgKgAUSe0wgaoGA1UdIwSBojCBn4AUbi3AEqke\n\
+    BVwcY9G4lmOgKgAUSe2hcaRvMG0xCzAJBgNVBAYTAkRFMQ8wDQYDVQQIDAZCYXll\ncm4xEjAQBgNVBAcMCU51ZXJuYmVyZzENMAsGA1UECgwEU1VTRTENMAsGA1UECwwE\nU1VTRTEbMBkGA1UEAwwSdXl1bmkud29ybGQtY28uY29tghRk2n9jR/+AIkXuDwDT\n\
+    8AfVj9n/MzANBgkqhkiG9w0BAQsFAAOCAQEAS9TAiV3tVC+rxAu7JXijNmsnl82O\nTRjZZmYkBc9PABZ5TF0OucYp0n3SDva0acxi+O+m5tlCanfX2Hva+l+ZkpkpV1l1\npq88QewH/6mmPf7GEzxAgRs7/2xNL3RqKdiPUuAoukI8IIdZs8BYUgiWsbxTyUNW\n\
+    PJUyDYfmEPBY6YFdbtk29xE9Dx0aGbZ4gZZSL0hEngx7djVNdUbISY1wj/IHEpHJ\n0l96tNVj4QMrfLuNiPKEJTYMRdtfY6jvSEiSJGGDFyAU1USdcbJFJ9B7lJ8o/EFj\nMIhBP1xrwTWnlvDq4Z014RKMPko0U6+eW/GAaaUgZspL+F36uHtnQrF6fg==\n\
     -----END CERTIFICATE-----\n"
-proxy_fqdn: dev-proxy.mgr.lab
+proxy_fqdn: store1234-proxy.world-co.com
 max_cache_size_mb: 2048
-server_version: '2022.12'
-email: cbosdonnat@suse.com
+server_version: '2023.01'
+email: sylvestre@world-co.com
