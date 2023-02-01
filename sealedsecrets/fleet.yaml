@@ -1,0 +1,6 @@
+defaultNamespace: kube-system
+helm:
+  repo: https://bitnami-labs.github.io/sealed-secrets
+  chart: sealed-secrets
+  values:
+    fullnameOverride: sealed-secrets-controller
