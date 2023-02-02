@@ -7,6 +7,7 @@ helm:
       annotations:
         metallb.universe.tf/allow-shared-ip: key-to-share-ip
         metallb.universe.tf/loadBalancerIPs: global.fleet.clusterLabels.proxy-ip
+    proxy_fqdn: global.fleet.clusterLabels.proxy-fqdn
   valuesFiles:
     - config.yaml
   valuesFrom:
@@ -16,21 +17,6 @@ helm:
     - secretKeyRef:
         name: proxy-secret-import
         key: ssh.yaml
-targetCustomizations:
-  - name: store1234
-    helm:
-      values:
-        proxy_fqdn: store1234-proxy.world-co.com
-    clusterSelector:
-      matchLabels:
-        store: store1234
-  - name: store5678
-    helm:
-      values:
-        proxy_fqdn: store5678-proxy.world-co.com
-    clusterSelector:
-      matchLabels:
-        store: store5678
 dependsOn:
   - name: proxy-metallb-config
   - name: proxy-proxy-secrets
