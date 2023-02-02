@@ -30,7 +30,6 @@ ca_crt: "Certificate:\n    Data:\n        Version: 3 (0x2)\n        Serial Numbe
     8AfVj9n/MzANBgkqhkiG9w0BAQsFAAOCAQEAS9TAiV3tVC+rxAu7JXijNmsnl82O\nTRjZZmYkBc9PABZ5TF0OucYp0n3SDva0acxi+O+m5tlCanfX2Hva+l+ZkpkpV1l1\npq88QewH/6mmPf7GEzxAgRs7/2xNL3RqKdiPUuAoukI8IIdZs8BYUgiWsbxTyUNW\n\
     PJUyDYfmEPBY6YFdbtk29xE9Dx0aGbZ4gZZSL0hEngx7djVNdUbISY1wj/IHEpHJ\n0l96tNVj4QMrfLuNiPKEJTYMRdtfY6jvSEiSJGGDFyAU1USdcbJFJ9B7lJ8o/EFj\nMIhBP1xrwTWnlvDq4Z014RKMPko0U6+eW/GAaaUgZspL+F36uHtnQrF6fg==\n\
     -----END CERTIFICATE-----\n"
-proxy_fqdn: store1234-proxy.world-co.com
 max_cache_size_mb: 2048
 server_version: '2023.01'
 email: sylvestre@world-co.com
