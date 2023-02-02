@@ -34,3 +34,4 @@ proxy_fqdn: store1234-proxy.world-co.com
 max_cache_size_mb: 2048
 server_version: '2023.01'
 email: sylvestre@world-co.com
+log_level: 0
