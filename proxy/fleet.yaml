@@ -1,5 +1,5 @@
 helm:
-  chart: oci://registry.opensuse.org/uyuni/proxy
+  chart: oci://registry.opensuse.org/home/cbosdonnat/branches/systemsmanagement/uyuni/master/charts/uyuni/proxy
   repo: ""
   version: "2023.1.0"
   values:

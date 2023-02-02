@@ -33,4 +33,3 @@ ca_crt: "Certificate:\n    Data:\n        Version: 3 (0x2)\n        Serial Numbe
 max_cache_size_mb: 2048
 server_version: '2023.01'
 email: sylvestre@world-co.com
-log_level: 0
