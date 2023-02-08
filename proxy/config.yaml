@@ -1,37 +1,37 @@
-server: suma4external.site.com
-ca_crt: "Certificate:\n    Data:\n        Version: 3 (0x2)\n        Serial Number:\n            2f:86:b0:7e:04:ff:a6:b9:2c:df:40:05:84:54:05:d1:dc:4a:29:ec\n\
-    \        Signature Algorithm: sha256WithRSAEncryption\n        Issuer: C = US, ST = Indiana, L = Anderson, O = SUSE Demo, OU = PM, CN = suma4external.site.com\n\
-    \        Validity\n            Not Before: Aug  5 18:27:29 2022 GMT\n            Not After : Aug  2 18:27:29 2032 GMT\n        Subject: C = US, ST =\
-    \ Indiana, L = Anderson, O = SUSE Demo, OU = PM, CN = suma4external.site.com\n        Subject Public Key Info:\n            Public Key Algorithm: rsaEncryption\n\
-    \                RSA Public-Key: (2048 bit)\n                Modulus:\n                    00:d7:d8:42:8d:3a:40:2c:02:58:db:a8:6e:00:4c:\n         \
-    \           20:86:75:fa:25:cf:5b:c5:67:0b:fb:41:4b:9c:dc:\n                    6e:3c:3b:b1:8f:83:ce:ea:bd:89:54:70:56:ba:85:\n                    15:df:c5:1f:28:d1:7f:14:d8:78:1f:e9:66:03:11:\n\
-    \                    1a:89:11:cb:e8:64:57:c0:da:0f:0b:49:8b:48:e2:\n                    a5:b0:d6:c6:d0:4b:72:ac:0a:8e:d4:57:a7:5e:c3:\n            \
-    \        9c:5b:98:6c:2a:14:c8:80:b0:e8:22:f4:71:00:d3:\n                    24:01:25:f2:e1:b3:5c:7e:b4:66:30:a0:2b:6a:ae:\n                    69:a5:cf:5c:cc:0a:8d:05:84:71:17:78:c7:66:0e:\n\
-    \                    03:50:c4:6d:80:3c:2a:d3:7e:21:ed:ff:30:fe:49:\n                    f2:d5:67:6c:9c:21:a2:4f:af:b7:b8:b7:b4:bf:f0:\n            \
-    \        67:f9:2e:e6:cf:f6:e7:e0:fd:67:55:22:51:16:52:\n                    91:f6:48:e6:d2:9c:0d:a1:50:2c:02:4e:74:82:61:\n                    3c:9d:3c:35:2f:db:dd:14:0b:52:4d:32:da:b1:79:\n\
-    \                    65:3e:ff:b8:5f:97:6e:6c:a9:43:fe:39:11:d3:47:\n                    47:32:ea:fb:24:88:03:a6:a7:99:2f:b5:48:83:a9:\n            \
-    \        39:f7:6e:88:45:99:2c:6b:41:2a:0f:b8:e7:13:44:\n                    94:7f\n                Exponent: 65537 (0x10001)\n        X509v3 extensions:\n\
-    \            X509v3 Basic Constraints: \n                CA:TRUE\n            X509v3 Key Usage: \n                Digital Signature, Key Encipherment,\
-    \ Certificate Sign\n            X509v3 Extended Key Usage: \n                TLS Web Server Authentication, TLS Web Client Authentication\n        \
-    \    Netscape Comment: \n                RHN SSL Tool Generated Certificate\n            X509v3 Subject Key Identifier: \n                B2:C2:D1:8C:37:52:4D:74:0A:27:DE:A3:72:7B:69:14:9F:24:44:DC\n\
-    \            X509v3 Authority Key Identifier: \n                keyid:B2:C2:D1:8C:37:52:4D:74:0A:27:DE:A3:72:7B:69:14:9F:24:44:DC\n                DirName:/C=US/ST=Indiana/L=Anderson/O=SUSE\
-    \ Demo/OU=PM/CN=suma4external.site.com\n                serial:2F:86:B0:7E:04:FF:A6:B9:2C:DF:40:05:84:54:05:D1:DC:4A:29:EC\n\n    Signature Algorithm:\
-    \ sha256WithRSAEncryption\n         75:de:a7:70:25:2d:86:27:47:96:5d:86:b7:04:87:9c:57:15:\n         b0:06:e6:1a:28:9c:fa:2d:7f:d1:28:6f:07:c8:d6:ce:c1:18:\n\
-    \         43:6c:61:90:ef:e8:0a:34:67:cf:8d:df:7b:08:42:2e:d6:7d:\n         48:bc:d5:2c:42:0f:26:d1:7c:40:48:a5:06:27:62:8a:ad:43:\n         95:94:fe:df:83:48:25:72:df:7c:78:41:35:9d:f9:52:cc:bd:\n\
-    \         65:8e:43:08:e7:e8:12:7c:de:64:c5:80:09:02:7b:ab:eb:07:\n         9e:63:df:8d:1e:44:77:ca:53:92:95:a5:da:c7:ce:e8:45:4f:\n         f2:1f:5d:84:ae:fb:cb:c0:1b:a1:5f:6c:ef:be:04:12:56:dd:\n\
-    \         9f:f6:b8:b5:ee:c6:2d:56:d9:cf:13:c6:c5:09:33:b9:c7:ef:\n         99:e2:2c:f5:68:74:9c:65:41:a0:e9:75:2b:f8:48:89:39:b6:\n         06:dd:39:b0:3e:2b:ad:c2:bf:b2:c6:4f:07:f0:c4:43:42:6d:\n\
-    \         28:37:37:aa:e8:3b:2f:65:6a:8c:8a:1b:dd:2b:f2:1b:c3:c4:\n         29:08:a7:74:b2:15:4f:92:91:44:cd:4d:55:8d:bd:2f:91:87:\n         a3:50:15:54:43:a0:ff:8e:bc:62:67:44:87:73:a2:7b:b6:c5:\n\
-    \         17:99:71:a8\n-----BEGIN CERTIFICATE-----\nMIIEvDCCA6SgAwIBAgIUL4awfgT/prks30AFhFQF0dxKKewwDQYJKoZIhvcNAQEL\nBQAwdDELMAkGA1UEBhMCVVMxEDAOBgNVBAgMB0luZGlhbmExETAPBgNVBAcMCEFu\n\
-    ZGVyc29uMRIwEAYDVQQKDAlTVVNFIERlbW8xCzAJBgNVBAsMAlBNMR8wHQYDVQQD\nDBZzdW1hNGV4dGVybmFsLnNpdGUuY29tMB4XDTIyMDgwNTE4MjcyOVoXDTMyMDgw\nMjE4MjcyOVowdDELMAkGA1UEBhMCVVMxEDAOBgNVBAgMB0luZGlhbmExETAPBgNV\n\
-    BAcMCEFuZGVyc29uMRIwEAYDVQQKDAlTVVNFIERlbW8xCzAJBgNVBAsMAlBNMR8w\nHQYDVQQDDBZzdW1hNGV4dGVybmFsLnNpdGUuY29tMIIBIjANBgkqhkiG9w0BAQEF\nAAOCAQ8AMIIBCgKCAQEA19hCjTpALAJY26huAEwghnX6Jc9bxWcL+0FLnNxuPDux\n\
-    j4PO6r2JVHBWuoUV38UfKNF/FNh4H+lmAxEaiRHL6GRXwNoPC0mLSOKlsNbG0Ety\nrAqO1FenXsOcW5hsKhTIgLDoIvRxANMkASXy4bNcfrRmMKAraq5ppc9czAqNBYRx\nF3jHZg4DUMRtgDwq034h7f8w/kny1WdsnCGiT6+3uLe0v/Bn+S7mz/bn4P1nVSJR\n\
-    FlKR9kjm0pwNoVAsAk50gmE8nTw1L9vdFAtSTTLasXllPv+4X5dubKlD/jkR00dH\nMur7JIgDpqeZL7VIg6k5926IRZksa0EqD7jnE0SUfwIDAQABo4IBRDCCAUAwDAYD\nVR0TBAUwAwEB/zALBgNVHQ8EBAMCAqQwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsG\n\
-    AQUFBwMCMDEGCWCGSAGG+EIBDQQkFiJSSE4gU1NMIFRvb2wgR2VuZXJhdGVkIENl\ncnRpZmljYXRlMB0GA1UdDgQWBBSywtGMN1JNdAon3qNye2kUnyRE3DCBsQYDVR0j\nBIGpMIGmgBSywtGMN1JNdAon3qNye2kUnyRE3KF4pHYwdDELMAkGA1UEBhMCVVMx\n\
-    EDAOBgNVBAgMB0luZGlhbmExETAPBgNVBAcMCEFuZGVyc29uMRIwEAYDVQQKDAlT\nVVNFIERlbW8xCzAJBgNVBAsMAlBNMR8wHQYDVQQDDBZzdW1hNGV4dGVybmFsLnNp\ndGUuY29tghQvhrB+BP+muSzfQAWEVAXR3Eop7DANBgkqhkiG9w0BAQsFAAOCAQEA\n\
-    dd6ncCUthidHll2GtwSHnFcVsAbmGiic+i1/0ShvB8jWzsEYQ2xhkO/oCjRnz43f\newhCLtZ9SLzVLEIPJtF8QEilBidiiq1DlZT+34NIJXLffHhBNZ35Usy9ZY5DCOfo\nEnzeZMWACQJ7q+sHnmPfjR5Ed8pTkpWl2sfO6EVP8h9dhK77y8AboV9s774EElbd\n\
-    n/a4te7GLVbZzxPGxQkzucfvmeIs9Wh0nGVBoOl1K/hIiTm2Bt05sD4rrcK/ssZP\nB/DEQ0JtKDc3qug7L2VqjIob3SvyG8PEKQindLIVT5KRRM1NVY29L5GHo1AVVEOg\n/468YmdEh3Oie7bFF5lxqA==\n\
-    -----END CERTIFICATE-----\n"
+server: dpv-uyuni-container-srv.site.com
+ca_crt: "Certificate:\n    Data:\n        Version: 3 (0x2)\n        Serial Number:\n            7b:a3:b3:cd:33:13:c1:8d:49:84:b9:fa:09:cb:60:61:68:11:9a:9e\n\
+    \        Signature Algorithm: sha256WithRSAEncryption\n        Issuer: C = US, ST = Indiana, L = Anderson, O = SUSE Demo, OU = SUSE PM, CN = dpv-uyuni-container-srv.site.com\n\
+    \        Validity\n            Not Before: Jan 30 21:59:37 2023 GMT\n            Not After : Jan 27 21:59:37 2033 GMT\n        Subject: C = US, ST =\
+    \ Indiana, L = Anderson, O = SUSE Demo, OU = SUSE PM, CN = dpv-uyuni-container-srv.site.com\n        Subject Public Key Info:\n            Public Key\
+    \ Algorithm: rsaEncryption\n                RSA Public-Key: (2048 bit)\n                Modulus:\n                    00:b9:2c:da:60:07:e7:f0:a8:df:8e:af:66:16:9e:\n\
+    \                    a4:7a:04:6b:f9:46:80:4a:49:1c:38:c2:aa:d1:ce:\n                    bf:16:ce:11:dc:ef:96:ad:7c:25:12:65:aa:1f:64:\n            \
+    \        78:4b:10:1f:cb:bb:29:4f:95:af:6f:e0:71:3a:e2:\n                    3d:c0:45:92:b2:b6:83:ba:8c:97:62:73:35:8f:35:\n                    77:cc:da:74:a3:c2:b2:0e:75:61:55:b4:f5:de:9f:\n\
+    \                    67:58:88:77:08:4d:46:e7:c3:99:3b:26:7e:12:4e:\n                    09:0c:ad:d3:2f:86:16:48:4f:d0:1d:81:38:12:0a:\n            \
+    \        75:93:2b:41:f3:46:ad:6c:be:50:86:6d:d5:91:9f:\n                    33:f2:ac:1f:5a:e0:35:b6:ae:54:65:a5:66:24:2a:\n                    a7:ef:85:91:37:15:88:e8:21:84:fd:06:5f:1f:7b:\n\
+    \                    b1:16:e5:b4:74:a6:6d:08:34:f6:b0:66:08:eb:7a:\n                    a8:34:15:21:23:82:7d:c6:4e:a2:e5:c3:6f:80:66:\n            \
+    \        30:58:8a:52:2f:8f:fd:3c:33:80:8d:af:8b:f5:19:\n                    2e:cb:85:56:f9:19:77:5f:44:3b:4c:1b:ed:cc:62:\n                    b0:04:a4:df:a7:b7:8f:94:a6:f4:f3:8b:ca:57:2a:\n\
+    \                    09:1b:61:63:3a:a0:91:01:3c:1d:38:0c:16:2c:4d:\n                    55:4f\n                Exponent: 65537 (0x10001)\n        X509v3\
+    \ extensions:\n            X509v3 Basic Constraints: \n                CA:TRUE\n            X509v3 Key Usage: \n                Digital Signature, Key\
+    \ Encipherment, Certificate Sign\n            X509v3 Extended Key Usage: \n                TLS Web Server Authentication, TLS Web Client Authentication\n\
+    \            Netscape Comment: \n                RHN SSL Tool Generated Certificate\n            X509v3 Subject Key Identifier: \n                80:A5:76:4E:69:2B:5B:D0:72:1C:BD:DA:96:59:FC:8C:2E:B6:26:DB\n\
+    \            X509v3 Authority Key Identifier: \n                keyid:80:A5:76:4E:69:2B:5B:D0:72:1C:BD:DA:96:59:FC:8C:2E:B6:26:DB\n                DirName:/C=US/ST=Indiana/L=Anderson/O=SUSE\
+    \ Demo/OU=SUSE PM/CN=dpv-uyuni-container-srv.site.com\n                serial:7B:A3:B3:CD:33:13:C1:8D:49:84:B9:FA:09:CB:60:61:68:11:9A:9E\n\n    Signature\
+    \ Algorithm: sha256WithRSAEncryption\n         22:3d:6a:76:0d:9b:57:6e:7e:70:70:9e:4a:d2:7c:1e:fe:89:\n         2e:be:24:8a:4e:4c:50:bd:86:2e:31:33:69:8b:92:85:2c:0e:\n\
+    \         d8:91:7a:62:88:e7:40:48:5e:35:98:42:3d:aa:c7:3b:b9:b8:\n         40:57:54:ad:1a:d8:88:25:48:bd:c8:ca:15:e9:b5:66:67:66:\n         9d:9a:5f:e6:45:3b:ea:f0:5d:09:63:af:f6:24:a4:95:15:da:\n\
+    \         42:e4:4d:c6:7a:06:41:9a:a5:bf:d5:51:91:b0:ab:b7:b3:16:\n         b6:65:63:23:5b:b9:a8:9c:6e:f0:ee:2c:7e:bb:55:cf:c4:0a:\n         e3:40:a0:de:d9:aa:dd:a0:df:37:01:59:4d:02:0e:9b:5c:21:\n\
+    \         9c:67:97:ca:79:f7:63:4c:10:d4:ef:af:07:a5:34:0e:d6:29:\n         48:08:80:65:b6:df:f3:bd:63:68:ce:c8:9c:eb:d3:96:75:69:\n         4a:00:3e:a3:7a:e0:28:9e:a3:fd:1a:c8:ff:f1:f6:9f:c0:89:\n\
+    \         b0:02:3c:36:32:d4:81:67:47:02:3f:6b:8e:df:f3:70:bb:9d:\n         9e:bc:42:a3:1f:33:6e:20:7d:8a:dd:cf:b5:f7:bc:58:4f:8c:\n         41:d1:47:19:77:38:db:e8:4d:74:5a:f8:03:ab:61:e6:38:7b:\n\
+    \         29:99:7b:17\n-----BEGIN CERTIFICATE-----\nMIIE7jCCA9agAwIBAgIUe6OzzTMTwY1JhLn6CctgYWgRmp4wDQYJKoZIhvcNAQEL\nBQAwgYMxCzAJBgNVBAYTAlVTMRAwDgYDVQQIDAdJbmRpYW5hMREwDwYDVQQHDAhB\n\
+    bmRlcnNvbjESMBAGA1UECgwJU1VTRSBEZW1vMRAwDgYDVQQLDAdTVVNFIFBNMSkw\nJwYDVQQDDCBkcHYtdXl1bmktY29udGFpbmVyLXNydi5zaXRlLmNvbTAeFw0yMzAx\nMzAyMTU5MzdaFw0zMzAxMjcyMTU5MzdaMIGDMQswCQYDVQQGEwJVUzEQMA4GA1UE\n\
+    CAwHSW5kaWFuYTERMA8GA1UEBwwIQW5kZXJzb24xEjAQBgNVBAoMCVNVU0UgRGVt\nbzEQMA4GA1UECwwHU1VTRSBQTTEpMCcGA1UEAwwgZHB2LXV5dW5pLWNvbnRhaW5l\nci1zcnYuc2l0ZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC5\n\
+    LNpgB+fwqN+Or2YWnqR6BGv5RoBKSRw4wqrRzr8WzhHc75atfCUSZaofZHhLEB/L\nuylPla9v4HE64j3ARZKytoO6jJdiczWPNXfM2nSjwrIOdWFVtPXen2dYiHcITUbn\nw5k7Jn4STgkMrdMvhhZIT9AdgTgSCnWTK0HzRq1svlCGbdWRnzPyrB9a4DW2rlRl\n\
+    pWYkKqfvhZE3FYjoIYT9Bl8fe7EW5bR0pm0INPawZgjreqg0FSEjgn3GTqLlw2+A\nZjBYilIvj/08M4CNr4v1GS7LhVb5GXdfRDtMG+3MYrAEpN+nt4+UpvTzi8pXKgkb\nYWM6oJEBPB04DBYsTVVPAgMBAAGjggFWMIIBUjAMBgNVHRMEBTADAQH/MAsGA1Ud\n\
+    DwQEAwICpDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwMQYJYIZIAYb4\nQgENBCQWIlJITiBTU0wgVG9vbCBHZW5lcmF0ZWQgQ2VydGlmaWNhdGUwHQYDVR0O\nBBYEFICldk5pK1vQchy92pZZ/IwutibbMIHDBgNVHSMEgbswgbiAFICldk5pK1vQ\n\
+    chy92pZZ/IwutibboYGJpIGGMIGDMQswCQYDVQQGEwJVUzEQMA4GA1UECAwHSW5k\naWFuYTERMA8GA1UEBwwIQW5kZXJzb24xEjAQBgNVBAoMCVNVU0UgRGVtbzEQMA4G\nA1UECwwHU1VTRSBQTTEpMCcGA1UEAwwgZHB2LXV5dW5pLWNvbnRhaW5lci1zcnYu\n\
+    c2l0ZS5jb22CFHujs80zE8GNSYS5+gnLYGFoEZqeMA0GCSqGSIb3DQEBCwUAA4IB\nAQAiPWp2DZtXbn5wcJ5K0nwe/okuviSKTkxQvYYuMTNpi5KFLA7YkXpiiOdASF41\nmEI9qsc7ubhAV1StGtiIJUi9yMoV6bVmZ2adml/mRTvq8F0JY6/2JKSVFdpC5E3G\n\
+    egZBmqW/1VGRsKu3sxa2ZWMjW7monG7w7ix+u1XPxArjQKDe2ardoN83AVlNAg6b\nXCGcZ5fKefdjTBDU768HpTQO1ilICIBltt/zvWNozsic69OWdWlKAD6jeuAonqP9\nGsj/8fafwImwAjw2MtSBZ0cCP2uO3/Nwu52evEKjHzNuIH2K3c+197xYT4xB0UcZ\n\
+    dzjb6E10WvgDq2HmOHspmXsX\n-----END CERTIFICATE-----\n"
 proxy_fqdn: 
-max_cache_size_mb: 8192
-server_version: 4.3.3
-email: admin@site.com
+max_cache_size_mb: 4096
+server_version: '2023.01'
+email: don@vosburgs.org
