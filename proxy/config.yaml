@@ -31,7 +31,6 @@ ca_crt: "Certificate:\n    Data:\n        Version: 3 (0x2)\n        Serial Numbe
     c2l0ZS5jb22CFHujs80zE8GNSYS5+gnLYGFoEZqeMA0GCSqGSIb3DQEBCwUAA4IB\nAQAiPWp2DZtXbn5wcJ5K0nwe/okuviSKTkxQvYYuMTNpi5KFLA7YkXpiiOdASF41\nmEI9qsc7ubhAV1StGtiIJUi9yMoV6bVmZ2adml/mRTvq8F0JY6/2JKSVFdpC5E3G\n\
     egZBmqW/1VGRsKu3sxa2ZWMjW7monG7w7ix+u1XPxArjQKDe2ardoN83AVlNAg6b\nXCGcZ5fKefdjTBDU768HpTQO1ilICIBltt/zvWNozsic69OWdWlKAD6jeuAonqP9\nGsj/8fafwImwAjw2MtSBZ0cCP2uO3/Nwu52evEKjHzNuIH2K3c+197xYT4xB0UcZ\n\
     dzjb6E10WvgDq2HmOHspmXsX\n-----END CERTIFICATE-----\n"
-proxy_fqdn: 
 max_cache_size_mb: 4096
 server_version: '2023.01'
 email: don@vosburgs.org
